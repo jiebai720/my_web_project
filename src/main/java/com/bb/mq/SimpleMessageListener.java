@@ -7,6 +7,8 @@ import javax.jms.JMSException;
 import javax.jms.Message;
 import javax.jms.MessageListener;
 import javax.jms.TextMessage;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * Created by admin on 2017/6/7.
@@ -25,5 +27,6 @@ public class SimpleMessageListener implements MessageListener {
             e.printStackTrace();
         }
     }
+
 
 }
